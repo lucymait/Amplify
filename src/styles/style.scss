@@ -1,11 +1,71 @@
-html, body {
-  height: 100vh;
-  // margin-top: 50px;
-} 
-
 
 .hero-body.home {
-  background-image: url('https://i.pinimg.com/originals/3d/19/c9/3d19c996597e23e9a27b71df08e7a33f.gif');
-  background-size: contain;
+  // background-image: url('https://miro.medium.com/max/1600/1*NvBN4a23YP0Xlci9ZgKusw.gif');
+  background-image: url('https://www.mixhits.com/wp-content/uploads/2018/03/iStock-636309902.jpg');
+  background-size: cover;
   background-position: center;
+}
+
+section {
+  background-image: url('https://www.earlham.lib.ia.us/theme_resources/colorfulrecordbackground/image');
+}
+
+.navbar {
+  background-color: black;
+  opacity: 0.9;
+}
+
+.card-content {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.card-artist-name {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  background-color: black;
+  padding: 10px;
+  border: whitesmoke 10px solid;
+  border-radius: 40px;
+}
+
+audio {
+  width: 278px;
+  height: 25px;
+  // background: black;
+}
+
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+audio::-webkit-media-controls-panel
+{
+ background-color: whitesmoke;
+
+}
+
+.navbar-item {
+  color: white;
+}
+
+.input {
+  width: 1000px;
+  background-color: black;
+  color: whitesmoke;
+  border: whitesmoke 3px solid;
+}
+
+::placeholder {
+  color: whitesmoke !important;
 }
